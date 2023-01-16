@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>AutoPlay e621</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="container fixer">
+
+    <div class="controls">
+      <ul>
+        <li><button onClick="skipVideo(-1)">Previous</button> - <button onClick="skipVideo(+1)">Next</button></li>
+        <li><a href="index.html">Go back to settings</a></li>
+        <li><a id="linkE621" href="">View this video on e621.net</a></li>
+        <li><input id="muteBox" type="checkbox" onClick="checkSound()"> Mute Videos</li>
+        <li><input id="musicBox" type="checkbox" onClick="checkSound()"> Mute Music</li>
+      </ul>
+
+    </div>
+
+    <video id="myVid" controls>
+      <source src="" type="video/webm">
+    </video>
+
+    <audio id="mySound" loop>
+      <source src="AnemoiaVoid.mp3" type="audio/mp3">
+    </audio>
+
+  </div>
+  <script src="script_play.js" charset="utf-8"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <title>AutoPlay e621</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="container padder">
+
+    <h2>AutoPlay e621</h2>
+
+    <h3>What's this?</h3>
+    <p>This webpage is designed to grab videos from e621.net and play them sequentially, hands-free for one less distraction switching to the next video while you watch. Simply enter in some tags and other preferences below, hit 'submit', and enjoy!</p>
+
+    <p>DISCLAIMER: This page is very new and early-stages, and there's tons of room for improvement! Please let me know about any issues or features you would like me to address.</p>
+
+    <p>MORE DISCLAIMER: e621 will not allow certain content to load without login information, which I have not implemented at this time. Currently these videos are (hopefully) just removed from the list, but you may have to skip them yourself now and again.</p>
+
+    <form action="play.html" method="get">
+      <p>
+        <span>Tags</span>
+        <input type="text" id="tags" name="tags"><br>
+        <input type="hidden" id="meta" name="meta" value="">
+      </p>
+
+      <p>
+        <span id="lblDuration"></span><br>
+        <input id="duration" type="range" min="0" max="1200" step="30" value="0" onInput="updateRange()"><br>
+      </p>
+
+      <p>
+        <span id="lblScore"></span><br>
+        <input id="score" type="range" min="0" max="1200" step="30" value="0" onInput="updateRange()">
+      </p>
+
+      <p>
+        <span>Rating</span>
+        <select id="rating">
+          <option value="explicit">Explicit</option>
+          <option value="questionable">Questionable</option>
+          <option value="safe">Safe</option>
+        </select>
+        <br>
+      </p>
+
+      <p>
+        <span>Order</span>
+        <select id="order">
+          <option value="none">Newest to oldest</option>
+          <option value="id">Oldest to newest</option>
+          <option value="random">Orders posts randomly</option>
+          <option value="score">Highest score first</option>
+          <option value="score_asc">Lowest score first</option>
+          <option value="favcount">Most favorites first</option>
+          <option value="favcount_asc">Least favorites first</option>
+          <option value="duration">Video duration longest to shortest</option>
+          <option value="duration_asc">Video duration shortest to longest</option>
+        </select>
+        <br>
+      </p>
+
+      <input type="submit" onClick="submitMeta()" value="Play videos!">
+    </form>
+  </div>
+
+  <script src="script_index.js" charset="utf-8"></script>
+</body>
+</html>

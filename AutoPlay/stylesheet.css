@@ -1,0 +1,37 @@
+html, body {
+  background-color: #1f3540;
+  color: white;
+  font-family: sans-serif;
+}
+
+a {
+  color:white;
+}
+
+p {
+  margin: 40px;
+}
+
+.container {
+  margin: auto;
+  border: 1px solid white;
+}
+
+.padder {
+  padding: 15px;
+}
+
+.fixer {
+  width: 90%;
+  height: 90%;
+  position: fixed;
+}
+
+#myVid {
+  height: 100%;
+}
+
+.controls {
+  float:right;
+  border: 1px solid white;
+}
