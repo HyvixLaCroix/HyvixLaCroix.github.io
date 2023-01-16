@@ -36,7 +36,6 @@ function newVideo() {
 // End of newVideo method
 
 function pickVideo(input) {
-
     counter += input;
 
     if(counter >= VIDEOS.length) {
@@ -69,6 +68,7 @@ function skipVideo(input = 0) {
   pickVideo(input);
   newVideo();
   checkSound();
+  checkView();
   console.log("Skipping to next video...");
 }
 // End of skipVideo method
@@ -77,6 +77,27 @@ myVid.addEventListener('ended', (event) => {
   skipVideo(+1);
 });
 // End of 'ended' event listener
+
+myVid.addEventListener('resize', (event) => {
+  checkView();
+});
+// End of 'ended' event listener
+
+function checkView() {
+  var viewWidth = window.innerWidth;
+  var viewHeight = window.innerHeight;
+
+  console.log("Dimensions: " + viewWidth + "px wide by " + viewHeight + "px tall")
+  if(viewWidth < viewHeight) {
+    myVid.style.width = viewWidth + "px";
+    myVid.style.height = "auto";
+  }
+  else if (viewHeight <= viewWidth) {
+    myVid.style.height = viewHeight + "px";
+    myVid.style.width = "auto";
+  }
+}
+// end of checkView method
 
 /*************************************
 Video acquisition from e621.com ahead!

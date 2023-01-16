@@ -15,23 +15,19 @@ p {
 .container {
   margin: auto;
   border: 1px solid white;
-}
-
-.padder {
-  padding: 15px;
-}
-
-.fixer {
-  width: 90%;
-  height: 90%;
-  position: fixed;
-}
-
-#myVid {
-  height: 100%;
+    padding: 15px;
 }
 
 .controls {
-  float:right;
+  opacity: 0.5;
+  background-color: inherit;
   border: 1px solid white;
+  position: fixed;
+  z-index: 2;
+  margin-right: 0px;
+  margin-left: auto;
+}
+
+ul li {
+  list-style-type: none;
 }

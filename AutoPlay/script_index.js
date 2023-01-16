@@ -6,7 +6,7 @@ function submitMeta() {
   if(document.getElementById("order").value != "none")
     inputMeta.value += "order:" + document.getElementById("order").value;
 
-  if(document.getElementById("duration").value > 0 && !document.getElementById("loopable").checked)
+  if(document.getElementById("duration").value > 0)
     inputMeta.value += "+duration:>" + document.getElementById("duration").value;
 
   if(document.getElementById("score").value > 0)

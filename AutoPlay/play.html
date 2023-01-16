@@ -9,8 +9,6 @@
   <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-  <div class="container fixer">
-
     <div class="controls">
       <ul>
         <li><button onClick="skipVideo(-1)">Previous</button> - <button onClick="skipVideo(+1)">Next</button></li>
@@ -19,7 +17,6 @@
         <li><input id="muteBox" type="checkbox" onClick="checkSound()"> Mute Videos</li>
         <li><input id="musicBox" type="checkbox" onClick="checkSound()"> Mute Music</li>
       </ul>
-
     </div>
 
     <video id="myVid" controls>
@@ -27,10 +24,9 @@
     </video>
 
     <audio id="mySound" loop>
-      <source src="AnemoiaVoid.mp3" type="audio/mp3">
+      <source src="./void.mp3" type="audio/mp3">
     </audio>
 
-  </div>
   <script src="script_play.js" charset="utf-8"></script>
 </body>
 </html>
