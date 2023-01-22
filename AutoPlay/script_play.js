@@ -11,6 +11,18 @@ var vidSource = "https://e621.net/posts.json?tags=" + DefaultTags + "+" + URLtag
 var VIDEOS = [];
 var counter = 0;
 
+/*****************
+UI controls ahead!
+******************/
+
+var UI_box = document.getElementById("controls");
+var UI_html = "<button onClick=\"HideShow()\">Controls</button>";
+
+function HideShow() {
+  var temp = UI_box.innerHTML;
+  UI_box.innerHTML = UI_html;
+  UI_html = temp;
+}
 
 /********************
 Video controls ahead!

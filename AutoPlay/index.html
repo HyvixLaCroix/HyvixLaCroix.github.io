@@ -22,6 +22,8 @@
 
     <p>Background music for silent videos is <a href="https://freemusicarchive.org/music/anemoia/home-3/void-2/">Void, by Anemoia</a>.</p>
 
+    <script type='text/javascript' src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Support Me on Ko-fi', '#000000', 'V7V0I2I19');kofiwidget2.draw();</script>
+
     <form action="play.html" method="get">
       <p>
         <span>Tags</span>
@@ -31,12 +33,12 @@
 
       <p>
         <span id="lblDuration"></span><br>
-        <input id="duration" type="range" min="0" max="1200" step="30" value="0" onInput="updateRange()"><br>
+        <input id="duration" type="range" min="0" max="600" step="30" value="0" onInput="updateRange()"><br>
       </p>
 
       <p>
         <span id="lblScore"></span><br>
-        <input id="score" type="range" min="0" max="1200" step="30" value="0" onInput="updateRange()">
+        <input id="score" type="range" min="0" max="500" step="10" value="0" onInput="updateRange()">
       </p>
 
       <p>
@@ -67,6 +69,7 @@
 
       <input type="submit" onClick="submitMeta()" value="Play videos!">
     </form>
+
   </div>
 
   <script src="script_index.js" charset="utf-8"></script>

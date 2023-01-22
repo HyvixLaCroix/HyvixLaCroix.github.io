@@ -15,17 +15,17 @@ p {
 .container {
   margin: auto;
   border: 1px solid white;
-    padding: 15px;
+  padding: 15px;
 }
 
-.controls {
+#controls {
   opacity: 0.5;
   background-color: inherit;
   border: 1px solid white;
   position: fixed;
   z-index: 2;
-  margin-right: 0px;
-  margin-left: auto;
+  right: 1%;
+  bottom: 5%;
 }
 
 ul li {
