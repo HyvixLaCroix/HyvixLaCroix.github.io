@@ -1,0 +1,85 @@
+html, body {
+	font-family: "Salsa", sans-serif;
+	font-size: 20px;
+	background: #301860;
+	scroll-behavior: smooth;
+	}
+	
+#container {
+	width: 80%;
+	margin:auto;
+}
+
+#masterList {
+	border: none;
+}
+
+#output {
+	font-size: 1.5em;
+	color: inherit;
+	background: inherit;
+}
+
+a:link, a:visited, a:active {
+	color: inherit;
+}
+
+a:hover {
+	color: black;
+}
+
+div {
+	border-radius: 10px;
+}
+
+span {
+	display: block;
+	background: #7709b2;
+	margin: 5px;
+	padding: 0.5em;
+	border-radius: 10px;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+ol li {
+	list-style-type: alpha-roman;
+}
+
+button {
+	color: #180030;
+	font-family: "Salsa", sans-serif;
+	font-size: 1.5em;
+	background: #7709b2;
+	padding: 5px;
+	border: 2px solid #180030;
+	border-radius: 10px;
+}
+
+button:hover {
+	color: #005500;
+	background: #85ff33;
+	border-radius: 15px;
+}
+
+.roll-button {
+	height: 2.5em;
+	margin-left: 1em;
+	background: url("./roll-button.png");
+}
+
+.greenbox {
+	color: #005500;
+	background: #85ff33;
+	margin: 5px;
+	margin-bottom: 10px;
+	padding: 0.5em;
+	border: none;
+	border-radius: 20px;
+}
+
+.content-off {
+	display: none;
+}

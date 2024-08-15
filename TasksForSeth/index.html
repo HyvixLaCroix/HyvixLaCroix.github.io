@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tasks for Seth</title>
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="stylesheet.css">	
+  
+</head>
+
+<body>
+<div id="container">
+	
+	<div class="greenbox">
+		<button type="button" id="btnMasterTask">Roll a new task</button>
+		<span id="output">
+			<p>Click 'Roll a new task' (above) to get a randomized task for Seth to do for you.</p>
+			<p>You can also click on the 'All Tasks' (below) to view and randomize more specific tasks.</p>
+		</span>
+	</div>
+	
+	<div id="masterList"></div>
+	
+</div>
+ 
+<script src="RouletteClass.js"></script>
+<script src="TagsE621.js"></script>
+<script src="ShortTasks.js"></script>
+<script src="LongTasks.js"></script>
+<script src="PunishmentTasks.js"></script>
+
+<script>
+	console.log("Hello fox. It's been a while.");
+	
+	var MasterList = new Roulette(
+		"All Tasks",
+		"The tasks are broken up into categories. Click a button to uncollapse a category or task. Click 'Roll this task' to get a randomized result from that category or task."
+	);
+	MasterList.addResult(TagsE621);
+	MasterList.addResult(ShortTasks);
+	MasterList.addResult(LongTasks);
+	MasterList.addResult(PunishmentTasks);
+
+	//MasterList.echoResult();
+	document.getElementById("masterList").appendChild(MasterList.echoHTML());
+	document.getElementById("btnMasterTask").addEventListener("click", MasterList.echoResult.bind(MasterList));
+</script>
+
+</body>
+
+</html>
