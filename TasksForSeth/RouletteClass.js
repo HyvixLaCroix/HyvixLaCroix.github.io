@@ -27,7 +27,8 @@ class Roulette {
 		var output = {
 			outTitle: this.title,
 			outDescrip: this.descrip,
-			outResults: []
+			outResults: [],
+			outEcho: this.echoResult.bind(this)
 			};
 		
 		if(item.isRoulette) {
@@ -76,8 +77,12 @@ class Roulette {
 		}
 		
 		var HTMLreroll = document.createElement("button");
-		HTMLreroll.appendChild(document.createTextNode("Reroll " + output.outTitle));
-		HTMLreroll.addEventListener("click", this.echoResult.bind(this));
+		HTMLreroll.id = "btnReroll";
+		HTMLreroll.innerHTML = "Reroll " + output.outTitle;
+		HTMLreroll.addEventListener("click", output.outEcho);
+		
+		document.getElementById("btnReroll").replaceWith(HTMLreroll);
+		
 		
 		var HTMLoutput = document.getElementById("output");
 		while(HTMLoutput.firstElementChild != null)
@@ -86,7 +91,24 @@ class Roulette {
 		HTMLoutput.appendChild(HTMLtitle);
 		HTMLoutput.appendChild(HTMLdescrip);
 		HTMLoutput.appendChild(HTMLlist);
-		//HTMLoutput.appendChild(HTMLreroll);
+		
+		
+		var HTMLcopyButton = document.createElement("button");
+		HTMLcopyButton.innerHTML = "Copy " + output.outTitle + " to clipboard";
+		HTMLcopyButton.id = ("btnCopy");
+		var CopyPasteOutput = "# " + output.outTitle + "\n";
+		CopyPasteOutput += output.outDescrip + "\n";
+		
+		for(var i = 0; i < output.outResults.length; i++) {
+			CopyPasteOutput += "- " + output.outResults[i] + "\n";
+		}
+		HTMLcopyButton.addEventListener("click", function() { 
+			navigator.clipboard.writeText(btnCopy.value);
+			alert("Copied to clipboard!");
+		});		
+		
+		document.getElementById("btnCopy").replaceWith(HTMLcopyButton);
+		
 		
 		// Scroll back to top.
 		document.body.scrollTop = 0; // For Safari.

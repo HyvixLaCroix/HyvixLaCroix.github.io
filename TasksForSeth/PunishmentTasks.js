@@ -17,8 +17,8 @@ var ChastityCum = new Roulette(
 	"Chastity (Orgasms)",
 	"Put on the chastity cage. Keep it on until the specified orgasms are achieved. You may not have any additional orgams beyond the specified amount without permission."
 );
-ChastityCum.addResult(["Seth: 0 orgasms", "Seth: 1 orgasm (caged)", "Seth: 2 orgasms (caged)"]);
-ChastityCum.addResult(["Snoozel: 1 orgasm", "Snoozel: 3 orgasms", "Snoozel: 5 orgasms"]);
+ChastityCum.addResult(["Seth: 1 orgasm (caged)", "Seth: 2 orgasms (caged)", "Seth: 3 orgasms (caged)"]);
+ChastityCum.addResult(["Optional: Dom(me): 1 orgasm", "Optional: Dom(me): 3 orgasms", "Optional: Dom(me): 5 orgasms"]);
 
 var CBT_Cold = new Roulette(
 	"CBT - Cold",
@@ -32,9 +32,9 @@ var Pruning = new Roulette(
 	"Pruning Porn",
 	"Let's clear out some of your saved porn. Be sure to show your selections to Snoozel.");
 Pruning.addResult(["Select 3 items at random...", "Select 5 items at random...", "Select 7 items at random..."]);
-Pruning.addResult(["... from C-Tier.", "... from B-Tier.", "... from A-Tier.", "... from each tier.", "... from each Goddess folder.", ]);
+Pruning.addResult(["... from C-Tier.", "... from B-Tier.", "... from A-Tier.", "... from Goddess tier.", "... from each tier."]);
 Pruning.addResult(["Stare at each one for 3 minutes without touching.", "Stare at each one for 1 minute while stroking. (Do not edge or cum.)", "Edge to each one. (Take your time.)"]);
-Pruning.addResult(["Delete all of them.", "Choose your favorite one. Delete the rest. Beg Snoozel to let you keep it.", "Ask Snoozel to choose one to let you keep. (He can decide to choose none of them.) Delete the rest."]);
+Pruning.addResult(["Delete all of them.", "Choose your favorite one. Delete the rest. Beg your Dom(me) to let you keep it.", "Ask Snoozel to choose one to let you keep. (He can decide to choose none of them.) Delete the rest."]);
 
 var Ruins = new Roulette(
 	"Ruined Orgasms",
@@ -53,7 +53,7 @@ Bondage.addResult([
 	"Blindfold, ballgag, and wrist cuffs.",
 	"Blindfold, ballgag, plague mask, and wrist cuffs.",
 	"Rope on legs, blindfold, ballgag, plague mask and wrist cuffs.",
-	"Chastity cage, rope on legs, blindfold, ballgag, plague mask and wrist cuffs. Afterwards, ask permission to take off the chastity cage or roll a Chastity punishment task."
+	"Chastity cage, rope on legs, blindfold, ballgag, plague mask and wrist cuffs. Afterwards, ask the Dom(me)'s permission to take off the chastity cage, or roll a Chastity punishment task."
 ]);
 Bondage.addResult(["Stay bound for 20 minutes.", "Stay bound for 40 minutes.", "Stay bound for 1 hour."]);
 

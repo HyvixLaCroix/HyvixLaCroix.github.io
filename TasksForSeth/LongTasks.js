@@ -2,7 +2,7 @@ var Edging = new Roulette(
 	"Edging",
 	"Seth is going to spend today edging, the specified number of times within the specified timeframe."
 );
-Edging.addResult(["5 edges", "10 edges", "15 edges", "20 edges (Double your time frame)"]);
+Edging.addResult(["5 edges", "10 edges", "15 edges", "20 edges (Double your time frame.)"]);
 Edging.addResult(["At least 15 seconds between edges.", "At least 30 seconds between edges.", "At least 1 minute between edges.", "Go completely soft between edges. (Double your time frame.)"]);
 Edging.addResult(["You have 2 hours.", "You have 4 hours.", "You have 6 hours.", "You have 12 hours... and double the amount of edges."]);
 
@@ -13,7 +13,7 @@ var PornVidLong = new Roulette (
 	"Watch videos from E621 without touching, for <i>at least</i> the specified time. (It is okay to rewatch videos. <a href='https://hyvixlacroix.github.io/AutoPlay/'>AutoPlay</a> is a useful utility.) Videos at least 60 seconds long are recommended. " + DomTagClause
 );
 PornVidLong.addResult(PornDuration);
-PornVidShort.addResult(["Download none of the videos.", "Download 1 video.", "Download 2 videos.", "Download 3 videos."]);
+PornVidLong.addResult(["Download none of the videos.", "Download 1 video.", "Download 2 videos.", "Download 3 videos."]);
 
 var PornSlideLong = new Roulette (
 	"Slideshow Porn Images",
@@ -32,7 +32,7 @@ HeatControlLong.addResult(["Download one of the images.", "Download one image pe
 
 var HeatControlEndurance = new Roulette(
 	"Heat Control - Endurance Mode",
-	"Start and finish a <a href='https://strawbshc.itch.io/heat-control-edging-trainer'>Heat Control</a> game with the following Endurance Mode settings. " + DomTagClause + " Suffer a punishment of the Dom's choice if you cum without permission or fail to cum when prompted."
+	"Start and finish a <a href='https://strawbshc.itch.io/heat-control-edging-trainer'>Heat Control</a> game with the following Endurance Mode settings. Cumming is guaranteed... but only at the end. " + DomTagClause + " Suffer a punishment of the Dom's choice if you cum without permission or fail to cum when prompted."
 );
 HeatControlEndurance.addResult(["Endurance Mode: Gentle (up to 1 hour)", "Endurance Mode: Average (up to 2 hours)", "Endurance Mode: Evil (up to 4 hours)"]);
 HeatControlEndurance.addResult(["Download none of the images.", "Download one image per 30 minutes.", "Download one image per 20 minutes.", "Download one image per 10 minutes."]);
@@ -53,13 +53,13 @@ var ButtplugSmall = new Roulette(
 	"Wear any butt plug for the following length of time."
 );
 ButtplugSmall.addResult(["Wear the plug for 1 consecutive hour.", "Wear the plug for 2 consecutive hours.", "Wear the plug for 4 hours in total today.", "Wear the plug for 8 hours in total today."]);
-ButtplugSmall.addResult(["Optional: Do 'popping' exercises every 30 minutes plugged.", "Optional: Do 'popping' exercises every 15 minutes plugged."]);
+ButtplugSmall.addResult(["Optional: Do 'popping' exercises every 30 minutes plugged.", "Optional: Do 'popping' exercises every 60 minutes plugged."]);
 
 var ButtplugEach = new Roulette(
 	"Progressive Butt Plug Stretching",
 	"Wear each butt plug, from smallest to largest, for the specified length of time. Also do the specified 'popping' exercises, pausing the timer while doing so. If the next plug won't insert, repeat the time on the current plug."
 );
-ButtplugEach.addResult(["Wear each plug for 20 minutes. Do 'popping' every 10 minutes.", "Wear each plug for 30 minutes. Do 'popping' every 15 minutes.", "Wear each plug for 40 minutes. Do 'popping' every 20 minutes.", "Wear each plug for 60 minutes. Do 'popping' every 30 minutes."]);
+ButtplugEach.addResult(["Wear each plug for at least 20 minutes. Do 'popping' every 10 minutes.", "Wear each plug for at least 30 minutes. Do 'popping' every 15 minutes.", "Wear each plug for at least 40 minutes. Do 'popping' every 20 minutes.", "Wear each plug for at least 60 minutes. Do 'popping' every 30 minutes."]);
 ButtplugEach.addResult(["When 'popping', do at least 15 pops.", "When 'popping', do at least 30 pops.", "When 'popping', do at least 50 pops."]);
 
 var FuckAustin = new Roulette(
@@ -80,7 +80,7 @@ FuckJanine.addResult(["Only cum at the end.", "Cum whenever you like, but don't 
 FuckJanine.addResult(["Pause for 2 minutes per edge.", "Pause for 1 minute per edge.", "Pause for 30 seconds per edge."]);
 FuckJanine.addResult(["Rub your tip against Janine's lips first, for 10 minutes.", "Rub your base against Janine's lips first, for 10 minutes.", "Rub your balls against Janine's lips first, for 10 minutes."]);
 FuckJanine.addResult(["Slide into her maw, staying completely still inside, for 15 minutes.", "Slide into her maw, staying completely still inside, for 30 minutes.", "Slide into her maw, staying completely still inside, for 30 minutes.", "Slide into her maw, staying completely still inside, for 45 minutes."]);
-FuckJanine.addResult(["You can thrust now! Go at 30 BPM...", "You can thrust now! Go at 60 BPM...", "You can thrust now! Go at 90 BPM...", "You can thrust now! Go at 120 BPM...", "You can thrust now! Go at 150 BPM..."])
+FuckJanine.addResult(["You can thrust now! Go at 30 BPM...", "You can thrust now! Go at 60 BPM...", "You can thrust now! Go at 90 BPM...", "You can thrust now! Go at 120 BPM..."])
 FuckJanine.addResult(["...until you've edged 3 times.", "... until you've edged 5 times.", "... for 15 minutes.", "...for 30 minutes.", "...for 45 minutes."]);
 
 
