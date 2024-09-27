@@ -3,6 +3,14 @@ var OptionalLube = [
 	"Optional: Apply cum (with permission)."
 ];
 
+var HumiliatingTease = new Roulette (
+	"Humiliating Tease",
+	"You're allowed to try and cum for this task, but don't expect to be able to unless you're very lucky, or very pent up~"
+);
+HumiliatingTease.addResult(["Rub your shaft with one finger...", "Rub your cock with a vibrator...", "Hump against a pillow...", "Frot against Austin's shaft (no squeezing!)...", "Grind against Janine's lips (no penetrating!)..."]);
+HumiliatingTease.addResult(["... for 5 minutes.", "... for 10 minutes.", "... for 15 minutes."]);
+HumiliatingTease.addResult(["And then you're done.", "And then reroll this task (if you have time).", "And then, if you edged, reroll this task (if you have time).", "And then, if you're willing to roll a Punishment task afterwards, reroll this task (if you have time)."]);
+
 var KissJanine = new Roulette(
 	"Kiss Janine",
 	"Self-explanatory."
@@ -59,6 +67,7 @@ var ShortTasks = new Roulette(
 	"Short Tasks",
 	"Tasks in this group should only take about 10-15 minutes at most, and should involve little or no cleanup."
 );
+ShortTasks.addResult(HumiliatingTease);
 ShortTasks.addResult(KissJanine);
 ShortTasks.addResult(KissAustin);
 ShortTasks.addResult(PornVidShort);

@@ -44,11 +44,11 @@
 		"All Tasks",
 		"The tasks are broken up into categories. Click a button to uncollapse a category or task. Click 'Roll this task' to get a randomized result from that category or task."
 	);
-	MasterList.addResult(TagsE621);
 	MasterList.addResult(ShortTasks);
 	MasterList.addResult(LongTasks);
 	MasterList.addResult(PunishmentTasks);
 
+	document.getElementById("masterList").appendChild(TagsE621.echoHTML());
 	document.getElementById("masterList").appendChild(MasterList.echoHTML());
 	document.getElementById("btnMasterTask").addEventListener("click", MasterList.echoResult.bind(MasterList));
 </script>

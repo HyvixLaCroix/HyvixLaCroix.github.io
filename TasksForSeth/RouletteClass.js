@@ -92,7 +92,7 @@ class Roulette {
 		HTMLoutput.appendChild(HTMLdescrip);
 		HTMLoutput.appendChild(HTMLlist);
 		
-		
+		/*
 		var HTMLcopyButton = document.createElement("button");
 		HTMLcopyButton.innerHTML = "Copy " + output.outTitle + " to clipboard";
 		HTMLcopyButton.id = ("btnCopy");
@@ -108,7 +108,7 @@ class Roulette {
 		});		
 		
 		document.getElementById("btnCopy").replaceWith(HTMLcopyButton);
-		
+		*/
 		
 		// Scroll back to top.
 		document.body.scrollTop = 0; // For Safari.

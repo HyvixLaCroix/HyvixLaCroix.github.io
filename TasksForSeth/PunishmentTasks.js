@@ -28,13 +28,21 @@ CBT_Cold.addResult(["Put toothpaste on your balls.", "Put toothpaste on your sha
 CBT_Cold.addResult(["Hold an icecube anywhere on your junk.", "Hold two ice cubes, one on each ball.", "Hold an icecube between your shaft/cage and balls.", "Hold an icecube against your tip/cage."]);
 CBT_Cold.addResult(["30 seconds.", "1 minute.", "2 minutes.", "Until the ice has fully melted."]);
 
+var GoddessRestriction = new Roulette(
+	"Goddess Restriction",
+	"Your Dom(me) will choose a character with a suitable amount of content on E621 (or allow a previous choice to be rolled randomly). Create a new image album for them. You may only look at and download porn of that character until you meet the goals, unless expressly directed otherwise. (Goddesses need not be female, but masculine characters are also 'Goddess'.)");
+GoddessRestriction.addResult(["Your suggested Goddess is Loona.", "Your suggested Goddess is Krystal.", "Your suggested Goddess is Renamon.", "Your suggested Goddess is Lucario.", "Your suggested Goddess is Mal0.", "Your suggested Goddess is Freya Crescent."]);
+GoddessRestriction.addResult(["Worship your Goddess for at least 1 week.", "Worship your Goddess for at least 2 weeks.", "Worship your Goddess for at least 4 weeks. Double the amount of content needed."]);
+GoddessRestriction.addResult(["You need at least 20 new images or videos to continue.", "You need at least 30 new images or videos to continue.", "You need at least 40 new images or videos to continue."]);
+GoddessRestriction.addResult(["If your Goddess is not featured in this task: Add them to the task and keep all of their content.", "If your Goddess is not featured in this task: You may choose to either add them to this task, or roll the Pruning task on them, putting allowed content into A, B, or C tier as appropriate, until the album is empty.", "If your Goddess is not featured in this task: Roll the Pruning task on them, putting allowed content into A, B, or C tier as appropriate, until the album is empty."]);
+
 var Pruning = new Roulette(
 	"Pruning Porn",
 	"Let's clear out some of your saved porn. Be sure to show your selections to Snoozel.");
-Pruning.addResult(["Select 3 items at random...", "Select 5 items at random...", "Select 7 items at random..."]);
-Pruning.addResult(["... from C-Tier.", "... from B-Tier.", "... from A-Tier.", "... from Goddess tier.", "... from each tier."]);
+Pruning.addResult(["Select 4 items at random...", "Select 6 items at random...", "Select 8 items at random...", "Select 10 items at random..."]);
+Pruning.addResult(["... from C-Tier.", "... from B-Tier.", "... from A-Tier.", "... from A, B, and C tiers. (Halve the number of items.)",  "... from a random Goddess folder.",  "... from each Goddess folder. (Halve the number of items.)"]);
 Pruning.addResult(["Stare at each one for 3 minutes without touching.", "Stare at each one for 1 minute while stroking. (Do not edge or cum.)", "Edge to each one. (Take your time.)"]);
-Pruning.addResult(["Delete all of them.", "Choose your favorite one. Delete the rest. Beg your Dom(me) to let you keep it.", "Ask Snoozel to choose one to let you keep. (He can decide to choose none of them.) Delete the rest."]);
+Pruning.addResult(["Delete all of them.", "Choose your favorite one. Delete the rest. Beg your Dom(me) to let you keep it.", "Ask your Dom(me) to choose one to let you keep. (They can decide to choose none of them.) Delete the rest."]);
 
 var Ruins = new Roulette(
 	"Ruined Orgasms",
@@ -66,6 +74,7 @@ var PunishmentTasks = new Roulette(
 	"Used on naughty foxes for admonishment, on disobedient foxes who fail tasks, or on well-behaved foxes to keep them well-behaved."
 );
 PunishmentTasks.addResult(HeatControlZero);
+PunishmentTasks.addResult(GoddessRestriction);
 PunishmentTasks.addResult(Pruning);
 PunishmentTasks.addResult(ChastityTime);
 PunishmentTasks.addResult(ChastityCum);
