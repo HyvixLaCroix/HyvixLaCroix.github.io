@@ -51,14 +51,6 @@ HeatControlShort.addResult(["Duration: 5 minutes", "Duration: 10 minutes", "Dura
 HeatControlShort.addResult(["Cum chance: 0%", "Cum chance: 15%", "Cum chance: 30%", "Cum chance: 45%"]);
 HeatControlShort.addResult(["Download one of the images.", "Download 1 image.", "Download 2 images.", "Download 3 images.", "Download 4 images.", "Download 5 images."]);
 
-var MonsterMind = new Roulette(
-	"Monster Mind",
-	"Solve <a href='https://argonvile.itch.io/monstermind'>Monster Mind</a> puzzles of the specified difficulty, <i>or</i> the specified character."
-);
-MonsterMind.addResult(["Solve 3 sets of Novice puzzles...", "Solve 2 sets of 3-peg puzzles...", "Solve a set of 4-peg puzzles...", "Solve a set of 5-peg puzzles..."]);
-MonsterMind.addResult(["OR, solve a set of (non tutorial) puzzles with Grovyle.", "OR, solve a set of puzzles with Smeargle.", "OR, solve a set of puzzles with Buizel.", "OR, solve a set of puzzles with Sandslash.", "OR, solve a set of puzzles with Rhydon.", "OR, solve a set of puzzles with Heracross.", "OR, solve a set of puzzles with Grimer. (Don't forget the insulated glove.)", "OR, solve a set of puzzles with Lucario.", "OR, solve a set of puzzles with Abra."]);
-MonsterMind.addResult(["Set the gender(s) to male.", "Set the gender(s) to female.", "Set the gender(s) to default."]);
-
 /**********************
 End of Task Definitions
 ***********************/
@@ -73,4 +65,3 @@ ShortTasks.addResult(KissAustin);
 ShortTasks.addResult(PornVidShort);
 ShortTasks.addResult(PornSlideShort);
 ShortTasks.addResult(HeatControlShort);
-ShortTasks.addResult(MonsterMind);

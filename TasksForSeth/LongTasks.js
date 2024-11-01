@@ -37,17 +37,6 @@ var HeatControlEndurance = new Roulette(
 HeatControlEndurance.addResult(["Endurance Mode: Gentle (up to 1 hour)", "Endurance Mode: Average (up to 2 hours)", "Endurance Mode: Evil (up to 4 hours)"]);
 HeatControlEndurance.addResult(["Download none of the images.", "Download one image per 30 minutes.", "Download one image per 20 minutes.", "Download one image per 10 minutes."]);
 
-
-var KoboldKare = new Roulette(
-	"Kobold Kare",
-	"Start a game of Kobold Kare, with any mods and a new save file. You may not use the starting kobold for breeding. Breed a kobold of any species with the following qualities:"
-);
-KoboldKare.addResult(["Red", "Orange", "Yellow", "Green", "Blue", "Purple"]);
-KoboldKare.addResult(["Pastel", "Vibrant", "Dark"]);
-KoboldKare.addResult(["Macro", "Very Tall", "Normal Height", "Very Short", "Micro"]);
-KoboldKare.addResult(["Vagina", "Tiny cock", "Moderate cock", "Big cock", "Hyper cock"]);
-KoboldKare.addResult(["Flat chest", "Slight boobs", "Moderate boobs", "Big boobs", "Hyper boobs"]);
-
 var ButtplugSmall = new Roulette(
 	"Wearing the Butt Plug",
 	"Wear any butt plug for the following length of time."
@@ -83,6 +72,14 @@ FuckJanine.addResult(["Slide into her maw, staying completely still inside, for 
 FuckJanine.addResult(["You can thrust now! Go at 30 BPM...", "You can thrust now! Go at 60 BPM...", "You can thrust now! Go at 90 BPM...", "You can thrust now! Go at 120 BPM..."])
 FuckJanine.addResult(["...until you've edged 3 times.", "... until you've edged 5 times.", "... for 15 minutes.", "...for 30 minutes.", "...for 45 minutes."]);
 
+var Gaming = new Roulette(
+	"Gaming Time",
+	"Play the specified game in the specified way. Your Dom(me) may choose additional goals relevant to the specific game, as well."
+);
+Gaming.addResult(["Play Fallout 4 (with the appropriate modlist).", "Play Kobold Kare.", "Play Monster Mind.", "Play Beat Banger.", "Play Cloud Meadow.", "Play 8th Heaven.", "Play a new game, or one you haven't played recently."]);
+Gaming.addResult(["Play for at least 30 minutes.", "Play for at least 1 hour.", "Play for at least 2 hours.", "Play for at most 2 hours.", "Play until you edge.", "Play until you cum."]);
+Gaming.addResult(["Play privately.", "Stream for the Dom(me).", "Stream in the Fox Hole server.", "Stream in a public server."]);
+Gaming.addResult(["No screenshots are necessary.", "Take at least 3 screenshots.", "Take at least 5 screenshots, including an in-game orgasm.", "Take at least 7 screenshots, including two different in-game orgasms."]);
 
 /**********************
 End of Task Definitions
@@ -92,12 +89,12 @@ var LongTasks = new Roulette(
 	"Involved Tasks",
 	"These tasks are intended to take an hour or two, or to be spread out over the course of the day."
 );
+LongTasks.addResult(Gaming);
 LongTasks.addResult(Edging);
 LongTasks.addResult(PornVidLong);
 LongTasks.addResult(PornSlideLong);
 LongTasks.addResult(HeatControlLong);
 LongTasks.addResult(HeatControlEndurance);
-LongTasks.addResult(KoboldKare);
 LongTasks.addResult(ButtplugSmall);
 LongTasks.addResult(ButtplugEach);
 LongTasks.addResult(FuckAustin);

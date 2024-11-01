@@ -38,7 +38,7 @@ GoddessRestriction.addResult(["If your Goddess is not featured in this task: Add
 
 var Pruning = new Roulette(
 	"Pruning Porn",
-	"Let's clear out some of your saved porn. Be sure to show your selections to Snoozel.");
+	"Let's clear out some of your saved porn. Be sure to show your selections to your Dom(me).");
 Pruning.addResult(["Select 4 items at random...", "Select 6 items at random...", "Select 8 items at random...", "Select 10 items at random..."]);
 Pruning.addResult(["... from C-Tier.", "... from B-Tier.", "... from A-Tier.", "... from A, B, and C tiers. (Halve the number of items.)",  "... from a random Goddess folder.",  "... from each Goddess folder. (Halve the number of items.)"]);
 Pruning.addResult(["Stare at each one for 3 minutes without touching.", "Stare at each one for 1 minute while stroking. (Do not edge or cum.)", "Edge to each one. (Take your time.)"]);
