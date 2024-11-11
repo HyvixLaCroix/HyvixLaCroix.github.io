@@ -11,17 +11,9 @@ var GenderTags = [
 ];
 
 var CharacterTags = [
-	"loona_(helluva_boss)",
-	"krystal_(star_fox)",
-	"lucario",
 	"fox",
 	"~dragon ~kobold",
 	"~protogen ~mamagen",
-	"domestic_cat",
-	"otter",
-	"rat",
-	"owl",
-	"shiba_inu",
 	"canine",
 	"feline",
 	"equine",
@@ -43,7 +35,7 @@ var KinkTags = [
 
 var TagsE621 = new Roulette(
 	"E621 Tags",
-	"This 'task' is intended to be used to select tags for other tasks, such as Heat Control. If the tag set doesn't return enough items, some can be excluded to expand results. If this task was rolled randomly, go to Seth's <a href='https://walltaker.joi.how/links/12334'>Walltaker Page</a> and set it to an image with the following tags.",
+	"This 'task' is intended to be used to select tags for other tasks, such as Heat Control. If the tag set doesn't return enough items, some can be excluded to expand results. If this task was rolled randomly, go to Seth's <a href='https://walltaker.joi.how/links/382'>Walltaker Page</a> and set it to an image with the following tags.",
 	[GenderTags, CharacterTags, KinkTags]
 );
 
