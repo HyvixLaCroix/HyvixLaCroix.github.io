@@ -45,4 +45,5 @@ var ShortPunishments = new Roulette(
 );
 ShortPunishments.addResult(Pruning);
 ShortPunishments.addResult(CBT_Cold);
+ShortPunishments.addResult(CBT_Impact);
 ShortPunishments.addResult(WritingSentences);

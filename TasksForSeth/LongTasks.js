@@ -99,6 +99,7 @@ var LongTasks = new Roulette(
 );
 LongTasks.addResult(Gaming);
 LongTasks.addResult(Edging);
+LongTasks.addResult(Milking);
 LongTasks.addResult(PornVidLong);
 LongTasks.addResult(PornSlideLong);
 LongTasks.addResult(HeatControlLong);
