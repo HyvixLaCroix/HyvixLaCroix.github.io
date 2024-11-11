@@ -173,10 +173,18 @@ class Roulette {
 		// End of forEach function for creating list items.
 		
 		
-		var HTMLroll = document.createElement("img");
+		var HTMLroll = document.createElement("button");
 		HTMLroll.classList.add("roll-button");
-		HTMLroll.src = "./roll-button.png";
+		HTMLroll.innerHTML = "Roll";
 		HTMLroll.title = "Roll for " + this.title;
+		
+		/*
+		
+		var HTMLreroll = document.createElement("button");
+		HTMLreroll.id = "btnReroll";
+		HTMLreroll.innerHTML = "Reroll " + output.outTitle;
+		HTMLreroll.addEventListener("click", output.outEcho);
+		*/
 		
 		HTMLroll.addEventListener("click", this.echoResult.bind(this));
 		// This button can be used to roll individual tasks, instead of all of them at once.
