@@ -1,10 +1,18 @@
 var Edging = new Roulette(
 	"Edging",
-	"Seth is going to spend today edging, the specified number of times within the specified timeframe."
+	"Spend today edging, the specified number of times within the specified timeframe."
 );
 Edging.addResult(["5 edges", "10 edges", "15 edges", "20 edges (Double your time frame.)"]);
 Edging.addResult(["At least 15 seconds between edges.", "At least 30 seconds between edges.", "At least 1 minute between edges.", "Go completely soft between edges. (Double your time frame.)"]);
 Edging.addResult(["You have 2 hours.", "You have 4 hours.", "You have 6 hours.", "You have 12 hours... and double the amount of edges."]);
+
+var Milking = new Roulette(
+	"Milking",
+	"For pent-up foxes that need serious relief."
+);
+Milking.addResult(["Get 2 orgasms. (Halve your time frame.)", "Get 3 orgasms.", "Get 5 orgasms.", "Get 7 orgasms. (Double your time frame.)"]);
+Milking.addResult(["Do not ruin any of them.", "Ruin at least one of them.", "Ruin half of them (rounded down).", "Ruin all of them."]);
+Milking.addResult(["You have 12 hours.", "You have 18 hours.", "You have 24 hours."]);
 
 
 var PornDuration = ["Watch for 30 minutes.", "Watch for 60 minutes.", "Watch for 90 minutes."];

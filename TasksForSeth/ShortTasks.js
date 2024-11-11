@@ -51,6 +51,16 @@ HeatControlShort.addResult(["Duration: 5 minutes", "Duration: 10 minutes", "Dura
 HeatControlShort.addResult(["Cum chance: 0%", "Cum chance: 15%", "Cum chance: 30%", "Cum chance: 45%"]);
 HeatControlShort.addResult(["Download one of the images.", "Download 1 image.", "Download 2 images.", "Download 3 images.", "Download 4 images.", "Download 5 images."]);
 
+
+var Photos = new Roulette(
+	"Pictures of You",
+	"Send the assigning Dom(me) some nice, flattering photos of yourself."
+);
+Photos.addResult(["Take them as you are right now.", "Clean up thoroughly first.", "Clean up thoroughly, then pretty yourself up appropriately as well."]);
+Photos.addResult(["Show off your face.", "Show off your hair.", "Show off your hands.", "Show off your feet.", "Show off your midriff.", "Show off your hair.", "Show off your legs"]);
+Photos.addResult(["Take just 1 photo, but then re-roll the task and do it again.", "Take 3 photos.", "Take 5 photos."]);
+
+
 /**********************
 End of Task Definitions
 ***********************/
@@ -65,3 +75,4 @@ ShortTasks.addResult(KissAustin);
 ShortTasks.addResult(PornVidShort);
 ShortTasks.addResult(PornSlideShort);
 ShortTasks.addResult(HeatControlShort);
+ShortTasks.addResult(Photos);
